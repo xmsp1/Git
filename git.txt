@@ -1,0 +1,17 @@
+
+
+	*********   Git 操作   ***********
+1,设置用户名：git config --global user.name "xmsp1"
+2,设置用户名邮箱:git config --global "user.email"
+3初始化一个新的Git 仓库，进入文件目录，输入命令：git init
+4向仓库加入文件
+命令：    	git status查看状态
+	git add git.txt添加文件
+	git status查看状态
+	git commit -m "第一个git测试文件"
+	
+	
+	
+           
+
+	
