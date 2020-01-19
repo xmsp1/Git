@@ -9,6 +9,15 @@
 	git add git.txt添加文件
 	git status查看状态
 	git commit -m "第一个git测试文件"
+5远程仓库
+命令：	git remote add origin "地址"(SSH或者HTTPs)
+	git push -u origin master（两步完成发送）
+如果出现failed to push some refs to git,执行git push -u origin master
+(出现错误的主要原因是github中的README.md文件不在本地代码目录中,
+可以通过如下命令进行代码合并,来自https://zhidao.baidu.com/question/520358893388315405.html)
+
+git remote rm origin删除
+git clone “地址”
 	
 	
 	
